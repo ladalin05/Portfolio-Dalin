@@ -1,0 +1,144 @@
+/* Header Base */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  padding: 0.8rem 0.70rem;
+  transition: all 0.4s ease;
+  background-color: transparent;
+}
+
+/* Scrolled State */
+.header-scrolled {
+  padding: 0.6rem 0.70rem;
+  background-color: color-mix(in srgb, #1a2329 80%, transparent);
+  backdrop-filter: blur(24px);
+  border: 1px solid color-mix(in srgb, #242b32 60%, transparent);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Logo */
+.navbar-brand {
+    color: #ffffff;
+    font-size: 1.25rem;
+    letter-spacing: -0.5px;
+}
+
+.navbar-brand:hover {
+    color: #20b2a6;
+}
+
+/* Desktop Links */
+.nav-link-custom {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  color: #7a8491;
+  border-radius: 9999px;
+  transition: color 0.3s, background-color 0.3s;
+  text-decoration: none;
+}
+
+.nav-link-custom:hover {
+  color: #f0f2f5;
+  background-color: #1a2329;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  position: fixed;
+  top: 0; /* Adjust based on your header height */
+  right: 0;
+  width: 50%;
+  height: calc(100vh - 10px);
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(18px);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 10px 10px; 
+}
+
+/* Mobile Links */
+.mobile-link {
+  font-size: 1.2rem;
+  color: #eee;
+  text-decoration: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  transition: color 0.3s;
+}
+
+.mobile-link:hover {
+  color: #007bff;
+  background-color: #1a2329;
+}
+
+/* Simple Fade Animation */
+.animate-fade {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.footer-logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #111827;
+}
+
+.footer-text {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-link:hover {
+  color: #111827;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.social-icon {
+  padding: 0.9rem; 
+  border-radius: 50%; 
+  background-color: color-mix(in oklab, var(--color-primary) 10%, transparent) !important;
+  backdrop-filter: blur(18px); 
+  color: inherit;
+  transition: all 0.3s ease; 
+  display: inline-flex;  
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon:hover {
+  background-color: color-mix(in oklab, var(--color-primary) 20%, transparent) !important;
+}
+
+.social-icon .icon {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+ 
