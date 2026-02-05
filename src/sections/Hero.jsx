@@ -7,7 +7,7 @@ import hero_bg from '../assets/images/hero-bg.jpg';
 export const Hero = () => {
 
   const ConAccont = [
-    { Icon: Github, href: "https://github.com/Dalin23Developer" },
+    { Icon: Github, href: "https://github.com/ladalin05" },
     { Icon: Linkedin, href: "https://www.linkedin.com/in/la-dalin-b88829393" },
     { Icon: Facebook, href: "https://web.facebook.com/sok.lin.939283" },
   ] 
