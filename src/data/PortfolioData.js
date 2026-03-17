@@ -1,7 +1,7 @@
 import { Code2, Lightbulb, Rocket, Users, Mail, Phone, MapPin } from "lucide-react"; 
 import { 
-  SiLaravel, SiReact, SiNuxtdotjs, SiTypescript, SiJavascript, SiHtml5, 
-  SiPostman, SiGithub, SiSwagger, SiCss3, SiBootstrap, SiMysql 
+  SiLaravel, SiReact, SiNuxtdotjs, SiTypescript, SiJavascript, SiHtml5, SiTailwindcss,
+  SiPostman, SiGithub, SiSwagger, SiCss3, SiBootstrap, SiMysql, SiVuedotjs
 } from "react-icons/si";
 
 // Project Images
@@ -45,6 +45,7 @@ export const highlights = [
 export const skillsData = [
   { title: "Laravel", desc: "Build robust web applications using MVC architecture, Eloquent ORM, Blade templating, routing, and built-in authentication.", icon: <SiLaravel />, star: 5 },
   { title: "React", desc: "Craft interactive user interfaces using components, state, props, and virtual DOM.", icon: <SiReact />, star: 5 },
+  { title: "Vue", desc: "Develop reactive and component-based user interfaces using Vue's reactivity system, directives, and ecosystem.", icon: <SiVuedotjs />, star: 5 },
   { title: "Nuxt", desc: "Build universal Vue applications with server-side rendering, static sites, and powerful modules.", icon: <SiNuxtdotjs />, star: 5 },
   { title: "Postman", desc: "Test, debug, and document APIs efficiently with collections, environments, and automated testing.", icon: <SiPostman /> },
   { title: "GitHub", desc: "Host, manage, and collaborate on code repositories using version control with Git.", icon: <SiGithub /> },
@@ -55,6 +56,7 @@ export const skillsData = [
   { title: "HTML 5", desc: "Structure web content beautifully with the latest version of HTML.", icon: <SiHtml5 />, star: 4 },
   { title: "CSS 3", desc: "Style web pages creatively with the latest iteration of CSS.", icon: <SiCss3 />, star: 4 },
   { title: "Bootstrap", desc: "Quickly create responsive and appealing web designs using a popular CSS framework.", icon: <SiBootstrap />, star: 2 },
+  { title: "Tailwind CSS", desc: "Design modern, responsive UIs quickly using utility-first CSS classes and customizable design systems.", icon: <SiTailwindcss />, star: 5 },
   { title: "MySQL", desc: "Manage and organize relational databases efficiently.", icon: <SiMysql />, star: 2 },
 ];
 
